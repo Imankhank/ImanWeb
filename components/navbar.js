@@ -25,9 +25,6 @@ const Navbar = () => {
                         <Link target='_blank' className='text-decoration-none color_666666' href={"https://www.linkedin.com/in/iman-khan-82a484226"}>
                             <Image className='rounded-circle' width={20} height={20} src={linkdin} />
                         </Link>
-                        {/* <Link className='text-decoration-none color_666666' href={"/"}>
-                        <Image className='rounded-circle' width={20} height={20} src={twitter} />
-                    </Link> */}
                     </div>
                 </div>
             </div>

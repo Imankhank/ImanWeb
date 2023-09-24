@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Navbar from '@/components/navbar'
+import FirstSection from '@/components/first-section'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,6 +20,10 @@ export default function Home() {
         <div className='d-flex justify-content-center py-2'>
           <div className='col-11'>
             <Navbar />
+            <FirstSection />
+            <div className='w-100' style={{ backgroundColor: "red", height: "5rem" }}>
+
+            </div>
           </div>
         </div>
       </div>
