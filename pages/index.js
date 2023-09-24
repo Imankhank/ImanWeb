@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Navbar from '@/components/navbar'
 import FirstSection from '@/components/first-section'
+import MyTechSection from '@/components/tech-sec'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,13 +19,18 @@ export default function Home() {
       </Head>
       <div>
         <div className='d-flex justify-content-center py-2'>
-          <div className='col-11'>
+          <div className='col-10'>
             <Navbar />
             <FirstSection />
-            <div className='w-100' style={{ backgroundColor: "red", height: "5rem" }}>
-
-            </div>
+            <MyTechSection />
           </div>
+
+
+
+
+
+
+
         </div>
       </div>
     </>

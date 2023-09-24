@@ -8,16 +8,16 @@ import menu from "../assets/menu.svg"
 import Link from 'next/link'
 const Navbar = () => {
     return (
-        <nav className='d-flex justify-content-between'>
+        <nav className='d-flex justify-content-between align-items-center mt-2'>
             <div>
-                <Image className='rounded-circle' width={30} height={30} src={logo} />
+                <Image className='rounded-circle' width={70} height={70} src={logo} />
             </div>
             <div className='d-md-block d-none'>
                 <div className='d-flex gap-5 '>
-                    <Link className='text-decoration-none color_666666' href={"/"}>Home</Link>
-                    <Link className='text-decoration-none color_666666' href={"/"}>About</Link>
-                    <Link className='text-decoration-none color_666666' href={"/"}>Tech Stack</Link>
-                    <Link className='text-decoration-none color_666666' href={"/"}>Contact</Link>
+                    <Link className='text-decoration-none color_666666 fs_20' href={"/"}>Home</Link>
+                    <Link className='text-decoration-none color_666666 fs_20' href={"/"}>About</Link>
+                    <Link className='text-decoration-none color_666666 fs_20' href={"/"}>Tech Stack</Link>
+                    <Link className='text-decoration-none color_666666 fs_20' href={"/"}>Contact</Link>
                     <div className='d-flex gap-3'>
                         <Link className='text-decoration-none color_666666' href={"/"}>
                             <Image className='rounded-circle' width={20} height={20} src={github} />

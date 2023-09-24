@@ -6,3 +6,31 @@ body {
 .color_666666 {
   color: #666666;
 }
+.gradient-text {
+  background: linear-gradient(45deg, #ff0000, #00ff00, #0000ff);
+}
+
+/* FONT WEIGHTS */
+.fw_900 {
+  font-weight: 900;
+}
+.fw_800 {
+  font-weight: 800;
+}
+
+.fs_50 {
+  font-size: 50px;
+}
+.fs_20 {
+  font-size: 20px;
+}
+
+.border_E515AB {
+  border: 5px solid #e515ab;
+}
+.color_42446E {
+  color: #42446e;
+}
+.color_000000 {
+  color: #000000;
+}
