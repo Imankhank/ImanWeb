@@ -5,7 +5,7 @@ import Image from 'next/image';
 const FirstSection = () => {
     return (
         <div className='mt-5 pt-5 row'>
-            <div className='d-flex flex-lg-column gap-1 fw_900 fs_50 col-lg-6 col-12 color_42446E'>
+            <div className='d-flex flex-column gap-1 fw_900 fs_50 col-lg-6 col-12 color_42446E'>
                 <span>
                     Hi 👋,
                 </span>
@@ -20,7 +20,7 @@ const FirstSection = () => {
                 </span>
             </div>
             <div className='col-lg-6 col-12 d-flex justify-content-end'>
-                <Image src={iman} className='rounded-circle border_E515AB' style={{ width: '375', height: '375', objectFit: "cover" }} // optional
+                <Image src={iman} className='rounded-circle border_E515AB' style={{ width: '375px', height: '375px', objectFit: "cover" }} // optional
                 />
             </div>
         </div>
