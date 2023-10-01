@@ -1,0 +1,14 @@
+
+.myimage {
+    width : 375px;
+    height: 375px; 
+}
+.projCard {
+    box-shadow: 2px 2px 100px 0px #00000033;
+}
+@media only screen and (max-width: 992px) {
+    .myimage {
+        width : 200px;
+        height: 200px; 
+    }
+  }

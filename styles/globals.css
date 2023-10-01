@@ -11,11 +11,29 @@ body {
 }
 
 /* FONT WEIGHTS */
-.fw_900 {
-  font-weight: 900;
+.fw_300 {
+  font-weight: 300;
+}
+.fw_400 {
+  font-weight: 400;       
+}
+.fw_500 {
+  font-weight: 500;
+}
+.fw_600 {
+  font-weight: 600;
+}
+.fw_700 {
+  font-weight: 700;
 }
 .fw_800 {
   font-weight: 800;
+}
+.fw_900 {
+  font-weight: 900;
+}
+.fw_1000 {
+  font-weight: 1000;
 }
 
 .fs_50 {
@@ -23,6 +41,12 @@ body {
 }
 .fs_20 {
   font-size: 20px;
+}
+.fs_28 {
+  font-size: 28px;
+}
+.fs_18 {
+  font-size: 18px;
 }
 
 .border_E515AB {
@@ -34,3 +58,15 @@ body {
 .color_000000 {
   color: #000000;
 }
+.color_666666 {
+  color: #666666;
+}
+
+@media only screen and (max-width: 992px) {
+  .fs_lg_30 {
+    font-size: 30px;
+  }
+}
+
+
+

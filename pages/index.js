@@ -5,6 +5,7 @@ import styles from '@/styles/Home.module.css'
 import Navbar from '@/components/navbar'
 import FirstSection from '@/components/first-section'
 import MyTechSection from '@/components/tech-sec'
+import MyProjectSection from '@/components/my-project-section'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,18 +20,12 @@ export default function Home() {
       </Head>
       <div>
         <div className='d-flex justify-content-center py-2'>
-          <div className='col-10'>
+          <div className='col-xl-10 col-11'>
             <Navbar />
             <FirstSection />
             <MyTechSection />
+            <MyProjectSection />
           </div>
-
-
-
-
-
-
-
         </div>
       </div>
     </>
