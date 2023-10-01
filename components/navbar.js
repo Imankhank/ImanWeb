@@ -16,7 +16,7 @@ const Navbar = () => {
                 <div className='d-flex gap-5 '>
                     <Link className='text-decoration-none color_666666 fs_20' href={"/"}>Home</Link>
                     <Link className='text-decoration-none color_666666 fs_20' href={"/"}>About</Link>
-                    <Link className='text-decoration-none color_666666 fs_20' href={"/"}>Tech Stack</Link>
+                    <Link className='text-decoration-none color_666666 fs_20' href={"/tech-stack"}>Tech Stack</Link>
                     <Link className='text-decoration-none color_666666 fs_20' href={"/"}>Contact</Link>
                     <div className='d-flex gap-3'>
                         <Link className='text-decoration-none color_666666' href={"/"}>

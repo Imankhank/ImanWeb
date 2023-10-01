@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import linkdin from "../assets/linkdin.svg";
 import github from "../assets/github.svg";
+import styles from "../styles/Home.module.css";
 
 const Footer = () => {
   return (
@@ -52,6 +53,31 @@ const Footer = () => {
           border: "none",
         }}
       />
+      <div className="d-flex flex-lg-row flex-column gap-4 justify-content-between align-items-center">
+        <div className="d-flex flex-sm-row flex-column gap-5 ">
+          <Link className="text-decoration-none color_666666 fs_20" href={"/"}>
+            Home
+          </Link>
+          <Link className="text-decoration-none color_666666 fs_20" href={"/"}>
+            About
+          </Link>
+          <Link
+            className="text-decoration-none color_666666 fs_20"
+            href={"/tech-stack"}
+          >
+            Tech Stack
+          </Link>
+          <Link className="text-decoration-none color_666666 fs_20" href={"/"}>
+            Contact
+          </Link>
+        </div>
+        <p>
+          Designed and built by
+          <span className={`${styles?.footerstyle}`}>Pavan MG</span> with{" "}
+          <span className={`${styles?.footerstyle}`}>Love</span> &{" "}
+          <span className={`${styles?.footerstyle}`}>Coffee</span>
+        </p>
+      </div>
     </footer>
   );
 };

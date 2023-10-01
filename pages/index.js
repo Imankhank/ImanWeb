@@ -7,6 +7,7 @@ import FirstSection from "@/components/first-section";
 import MyTechSection from "@/components/tech-sec";
 import MyProjectSection from "@/components/my-project-section";
 import Footer from "@/components/footer";
+import Layout from "@/components/layout";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,17 +20,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div>
-        <div className="d-flex justify-content-center py-2">
-          <div className="col-xl-10 col-11">
-            <Navbar />
-            <FirstSection />
-            <MyTechSection />
-            <MyProjectSection />
-            <Footer />
-          </div>
-        </div>
-      </div>
+
+      <Layout>
+        <FirstSection />
+        <MyTechSection />
+        <MyProjectSection />
+      </Layout>
     </>
   );
 }
