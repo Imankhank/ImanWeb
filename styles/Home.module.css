@@ -6,6 +6,20 @@
 .projCard {
     box-shadow: 2px 2px 100px 0px #00000033;
 }
+
+.webLink {
+    text-decoration: none; 
+    border-bottom: 2px solid #000000;
+    padding-bottom: 2px; 
+    color: #000000; 
+    transition: border-bottom 0.2s; 
+  }
+
+  .webLink:hover {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+  }
+  
 @media only screen and (max-width: 992px) {
     .myimage {
         width : 200px;
