@@ -58,22 +58,28 @@ const Footer = () => {
           <Link className="text-decoration-none color_666666 fs_20" href={"/"}>
             Home
           </Link>
-          <Link className="text-decoration-none color_666666 fs_20" href={"/"}>
+          <Link className="text-decoration-none color_666666 fs_20" href={"/about-us"}>
             About
           </Link>
           <Link
             className="text-decoration-none color_666666 fs_20"
-            href={"/tech-stack"}
+            href={"/my-tech-stack"}
           >
             Tech Stack
           </Link>
-          <Link className="text-decoration-none color_666666 fs_20" href={"/"}>
+          <Link
+            className="text-decoration-none color_666666 fs_20"
+            href={"/my-projects"}
+          >
+            Projects
+          </Link>
+          <Link className="text-decoration-none color_666666 fs_20" href={"/contact-us"}>
             Contact
           </Link>
         </div>
         <p>
           Designed and built by
-          <span className={`${styles?.footerstyle}`}>Pavan MG</span> with{" "}
+          <span className={`${styles?.footerstyle}`}> Iman Khan</span> with{" "}
           <span className={`${styles?.footerstyle}`}>Love</span> &{" "}
           <span className={`${styles?.footerstyle}`}>Coffee</span>
         </p>
