@@ -7,7 +7,7 @@ import linkdin from "../assets/linkdin.svg";
 import github from "../assets/github.svg";
 const NavbarMenu = ({ show, handleClose = () => {} }) => {
   return (
-    <Offcanvas show={show} onHide={handleClose} responsive="lg">
+    <Offcanvas show={show} onHide={handleClose}>
       <Offcanvas.Header closeButton>
         <Offcanvas.Title>
           {" "}
