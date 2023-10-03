@@ -68,7 +68,7 @@ const Navbar = () => {
         </div>
       </div>
       <button
-        onClick={() => setShow(!show)}
+        onClick={() => setShow(true)}
         className="d-md-none border-0 bg-transparent"
       >
         <Image className="rounded-circle" width={30} height={30} src={menu} />
