@@ -73,7 +73,7 @@ const TechStack = () => {
                   src={time}
                   alt="company logo"
                 />
-                April 2022 - October 2023
+                October 2021 - Present
               </p>
             </div>
           </div>
